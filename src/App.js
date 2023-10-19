@@ -1,9 +1,11 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import {Toaster} from "react-hot-toast";
 import { HomePage, EditorPage } from "./pages";
 
 export default function App() {
   return (
     <>
+    <Toaster />
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<HomePage />} />
