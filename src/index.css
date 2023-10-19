@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz@1,6..12&display=swap");
 
 :root {
-  --backgroundPrimary: #252A34;
+  --backgroundPrimary: #202128e0;
+  --backgroundSecondary: #252a34;
   --primary: #08d9d6;
+  --primaryHover: #09faf6;
   --secondary: #ff2e63;
   --optionalWhite: #eaeaea;
 }

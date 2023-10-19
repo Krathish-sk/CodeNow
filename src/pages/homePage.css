@@ -1,0 +1,92 @@
+.homePageWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.formWrapper {
+  background: var(--backgroundSecondary);
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 90%;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
+
+footer a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.logoDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homePageLogo {
+  object-fit: cover;
+  width: 300px;
+  height: 150px;
+  margin-bottom: 30px;
+}
+
+.inputBox {
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-bottom: 14px;
+  background: #eee;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.btn {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.joinBtn {
+  background: var(--primary);
+  width: 100px;
+  margin: auto;
+  font-weight: 500;
+}
+
+.joinBtn:hover {
+  background: var(--primaryHover);
+}
+
+.createInfo {
+  font-size: 13px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.createNewBtn {
+  color: var(--primary);
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.createNewBtn:hover,
+footer a:hover {
+  border-color: var(--primaryHover);
+  border-bottom: 1px solid var(--primary);
+}
