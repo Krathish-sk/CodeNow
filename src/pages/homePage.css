@@ -52,15 +52,6 @@ footer a {
   font-weight: bold;
 }
 
-.btn {
-  border: none;
-  padding: 10px;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-}
-
 .joinBtn {
   background: var(--primary);
   width: 100px;
