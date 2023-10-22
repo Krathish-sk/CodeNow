@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import { toast } from "react-hot-toast";
 import { Client } from "../components";
+import "./editorPage.css";
 
 export default function EditorPage() {
   const navigate = useNavigate();
@@ -45,7 +46,19 @@ export default function EditorPage() {
               className="logoImage"
             />
           </div>
-          <h3>On Air</h3>
+          <h3 style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+            On Air{" "}
+            <img
+              style={{
+                width: "35px",
+                height: "35px",
+                borderRadius: "10px",
+                background: "green",
+              }}
+              src="/onAir.gif"
+              alt="Online"
+            />
+          </h3>
           <div className="clientList">
             {clients.map((client) => (
               <Client key={client.socketID} username={client.username} />
